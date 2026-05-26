@@ -1,42 +1,75 @@
-# FCM toolbox
+[update-readmes]   Mode: rewrite — migrating to template structure...
+# FCM-toolbox
 
-This public toolbox allows you to easily **test** and **debug** the [Firebase Cloud Messaging](https://firebase.google.com/docs/cloud-messaging/) service.
-- Send and receive FCM messages
-- Manage registered devices
-- Self-hosting capabilities
+[![Built with Ona](https://ona.com/build-with-ona.svg)](https://app.ona.com/#https://github.com/Interested-Deving-1896/FCM-toolbox)
 
-**On the public toolbox versions, users share the same [FCM](https://firebase.google.com/docs/cloud-messaging/) and [FRD](https://firebase.google.com/docs/database/) instances, be responsible!**
+<!-- AI:start:what-it-does -->
+_Description pending._
+<!-- AI:end:what-it-does -->
 
-![demo](art/demo.gif)
+## Architecture
 
-## Android app
+<!-- AI:start:architecture -->
+_Architecture documentation pending._
+<!-- AI:end:architecture -->
 
-Download the latest public version on the [Play Store](https://play.google.com/store/apps/details?id=fr.smarquis.fcm) or choose your [release version](https://github.com/SimonMarquis/FCM-toolbox/releases).
+## Install
 
-- Notify its presence and send its FCM token to a remote server
-- Issue a notification for each message
-- Retain all received messages
+<!-- Add installation instructions here. This section is yours — the AI will not modify it. -->
 
-![android_empty](art/android_empty.png) ![android_lis](art/android_list.png) ![android_notifications](art/android_notifications.png)
+```bash
+git clone https://github.com/Interested-Deving-1896/FCM-toolbox.git
+cd FCM-toolbox
+```
 
-### Configuration
+## Usage
 
-You can build your own version of the Android FCM toolbox app and provide your own `google-services.json` file.  
-[See official documentation](https://firebase.google.com/docs/cloud-messaging/android/client).
+<!-- Add usage examples here. This section is yours — the AI will not modify it. -->
 
-## Web app
+## Configuration
 
-The public web app is located at [https://fcm-toolbox-public.web.app](https://fcm-toolbox-public.web.app)
+<!-- Document configuration options here. This section is yours — the AI will not modify it. -->
 
-- Send multiple types of payloads
-- Maintain a local list of devices
-- See online devices
+## CI
 
-![web](art/web.png)
+<!-- AI:start:ci -->
+_CI documentation pending._
+<!-- AI:end:ci -->
 
-### Configuration
+## Mirror chain
 
-You can host your own version of the web FCM toolbox or simply provide your own Firebase identifiers.  
-[See official documentation](https://firebase.google.com/docs/cloud-messaging/js/client).  
+<!-- AI:start:mirror-chain -->
+This repo is maintained in [`Interested-Deving-1896/FCM-toolbox`](https://github.com/Interested-Deving-1896/FCM-toolbox) and mirrored through:
 
-![web_configuration](art/web_configuration.png) 
+```
+Interested-Deving-1896/FCM-toolbox  ──►  OpenOS-Project-OSP/FCM-toolbox  ──►  OpenOS-Project-Ecosystem-OOC/FCM-toolbox
+```
+
+Changes flow downstream automatically via the hourly mirror chain in
+[`fork-sync-all`](https://github.com/Interested-Deving-1896/fork-sync-all).
+Direct commits to OSP or OOC are detected and opened as PRs back to `Interested-Deving-1896`.
+<!-- AI:end:mirror-chain -->
+
+## Contributors
+
+<!-- AI:start:contributors -->
+_Contributors pending._
+<!-- AI:end:contributors -->
+
+## Origins
+
+<!-- AI:start:origins -->
+_Original project — no upstream fork._
+<!-- AI:end:origins -->
+
+## Resources
+
+<!-- AI:start:resources -->
+_No additional resource files found._
+<!-- AI:end:resources -->
+
+## License
+
+<!-- AI:start:license -->
+[Apache-2.0](https://github.com/Interested-Deving-1896/FCM-toolbox/blob/master/LICENSE) © 2026 [Interested-Deving-1896](https://github.com/Interested-Deving-1896)
+<!-- AI:end:license -->
